@@ -16,6 +16,7 @@ functions:
       - http:
           method: GET
           path: hello
+          cors: true
 
 custom:
   esbuild:
