@@ -66,6 +66,42 @@
   resolved "https://registry.yarnpkg.com/@kwsites/promise-deferred/-/promise-deferred-1.1.1.tgz#8ace5259254426ccef57f3175bc64ed7095ed919"
   integrity sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==
 
+"@middy/core@^3.3.1":
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/@middy/core/-/core-3.3.4.tgz#be1831cce8f3d00423d55dd1db36c3c3f5208985"
+  integrity sha512-u9g9XmwHjpcOfrflfMMfwZ9l9u+rTnRdwQG7As4PNt4w/eMYDAO32HI1MkxVkX7g2/g8VPq5XbglxQBlzNFZyQ==
+
+"@middy/http-cors@^3.3.1":
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/@middy/http-cors/-/http-cors-3.3.4.tgz#b25490bc15f733f7878ce88a534e231f21c33e25"
+  integrity sha512-Abi46RkNZmvHDK16IpnjoYeNJpO0APUSYnqHXemoYpug1ONO7sKXKomLomwMu/BZZvYgnYKrCXJb+R9hpAqtzA==
+  dependencies:
+    "@middy/util" "3.3.4"
+
+"@middy/http-error-handler@^3.3.1":
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/@middy/http-error-handler/-/http-error-handler-3.3.4.tgz#2d4ccbcc5a209449e04ab0ac03e142478aa5706b"
+  integrity sha512-tXnzt7Q1giGcoIW9qR5o7Qw60NlpFGlzoo4WzxWGF+QYJ2qM1e5Fnw+F5TSXakzqXeAZfTdIUSazH3bHN/E3iw==
+  dependencies:
+    "@middy/util" "3.3.4"
+
+"@middy/http-event-normalizer@^3.3.1":
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/@middy/http-event-normalizer/-/http-event-normalizer-3.3.4.tgz#40450273cc1a95c868bced62d93f1521e9d0357d"
+  integrity sha512-rDQn3/zMNZ306Dwb46p0Vxq2n0VvXgSR6RuqLp/rOpOG3OzzQg8ZX6NfCU43vUP7qZ+6F40KQS4M1lF9hAnoXw==
+
+"@middy/http-json-body-parser@^3.3.1":
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/@middy/http-json-body-parser/-/http-json-body-parser-3.3.4.tgz#e8034f30f9eb4f316d9f9c8795ce8ef30c42c4b7"
+  integrity sha512-NhMQ+qlHIFILy/+fgRgE7EcdQXPDZHvvwnMyA87EPG/jFEtMTu3CWtvtMVOyW90uedmp4zO+8qPt8hFOzbWHkA==
+  dependencies:
+    "@middy/util" "3.3.4"
+
+"@middy/util@3.3.4":
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/@middy/util/-/util-3.3.4.tgz#eff5b2c71afe8ebf0e4390ff9732b8c0ed5e1540"
+  integrity sha512-uWNof97DhNQAwF+ZoF6ZApY6L6UpZaHyhkOjh7NQ60KeayKkKIYB5C+aCVmCNZf1/uax2SfjKQzO9jIK8Is1LA==
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"

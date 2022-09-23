@@ -1,15 +1,40 @@
 {
   "compilerOptions": {
-    "lib": ["ESNext"],
+    "lib": [
+      "ESNext"
+    ],
     "moduleResolution": "node",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "removeComments": true,
     "sourceMap": true,
     "target": "ES2021",
-    "outDir": "lib"
+    "outDir": "lib",
+    "baseUrl": "src",
+    "paths": {
+      "@lib/*": [
+        "lib/*"
+      ],
+      "@schemas/*": [
+        "schemas/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@handlers/*": [
+        "handlers/*"
+      ],
+      "@entites/*": [
+        "entites/*"
+      ],
+      "@use-cases/*": [
+        "use-cases/*"
+      ]
+    }
   },
-  "include": ["src/**/*.ts"],
+  "include": [
+    "src/**/*.ts"
+  ],
   "exclude": [
     "node_modules/**/*",
     ".serverless/**/*"
